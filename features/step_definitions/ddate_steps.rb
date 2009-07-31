@@ -42,3 +42,8 @@ Then /^ddate\.is_xday\? should be "([^\"]*)"$/ do |bool|
   @ddate.is_xday?.to_s.downcase == bool
 end
 
+Then /^ddate\.to_s should not contain a newline$/ do
+  assert(!@ddate.nil?)
+  assert(!@ddate.to_s.match("\n"), "Converting a Ddate to a string should not contain a newline")
+end
+

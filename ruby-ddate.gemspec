@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["History.txt", "Manifest.txt"]
   s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "features/ddate_parts.feature", "features/development.feature", "features/step_definitions/common_steps.rb", "features/step_definitions/ddate_steps.rb", "features/support/common.rb", "features/support/env.rb", "features/support/matchers.rb", "lib/ddate.rb", "lib/ddate/discordian_date.rb", "script/console", "script/destroy", "script/generate", "test/test_ddate.rb", "test/test_helper.rb", "test/test_ddate2_cli.rb"]
   s.has_rdoc = true
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{ddate}
   s.rubygems_version = %q{1.3.1}

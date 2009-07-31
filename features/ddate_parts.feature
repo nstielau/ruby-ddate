@@ -15,3 +15,7 @@ Feature: A Ddate object has methods to access the different parts of the date.
       | date_string                              | day_of_week    | month     | year | day |
       | Setting Orange, Confusion 14, 3175 YOLD  | Setting Orange | Confusion | 3175 |  14 |
       | Setting Orange, Confusion 15, 9999 YOLD  | Setting Orange | Confusion | 9999 |  15 |
+      
+  Scenario: Converting Ddate to a string
+    Given ddate returns "Setting Orange, Confusion 14, 3175 YOLD"
+    Then ddate.to_s should not contain a newline
