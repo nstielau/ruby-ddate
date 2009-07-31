@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{ddate}
   s.rubygems_version = %q{1.3.1}
-  s.summary = nil
+  s.summary = "A wee wrapper for the ddate executable.  Use Discordian dates in ruby!"
   s.test_files = ["test/test_ddate.rb", "test/test_ddate2_cli.rb", "test/test_helper.rb"]
 
   if s.respond_to? :specification_version then
