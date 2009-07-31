@@ -40,10 +40,15 @@ Julian dates/times to Discordian dates.
   >> include Ddate
   => Object
   >> DiscordianDate.parse(Time.now).to_s
+  >> DiscordianDate.parse(Date.new).to_s
   >> DiscordianDate.parse("yesterday").to_s
-  >> DiscordianDate.parse("last monday").to_s
+  >> DiscordianDate.parse("last monday").day
+  >> DiscordianDate.parse("last monday").day_of_week
+  >> DiscordianDate.parse("last monday").month
+  >> DiscordianDate.parse("last monday").year
+  >> DiscordianDate.parse("last monday").is_xday?
 
-
+  
 == REQUIREMENTS:
 
 * Some other gems: Hoe, NewGem, Chronic.
