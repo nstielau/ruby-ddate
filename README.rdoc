@@ -33,18 +33,15 @@ Julian dates/times to Discordian dates.
 
 == SYNOPSIS:
 
->> require 'rubygems'
-=> true
->> require 'ddate'
-=> true
->> include Ddate
-=> Object
-
->> DiscordianDate.parse(Time.now).to_s
-
->> DiscordianDate.parse("yesterday").to_s
-
->> DiscordianDate.parse("last monday").to_s
+  >> require 'rubygems'
+  => true
+  >> require 'ddate'
+  => true
+  >> include Ddate
+  => Object
+  >> DiscordianDate.parse(Time.now).to_s
+  >> DiscordianDate.parse("yesterday").to_s
+  >> DiscordianDate.parse("last monday").to_s
 
 
 == REQUIREMENTS:
